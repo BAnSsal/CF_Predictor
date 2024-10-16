@@ -9,7 +9,7 @@ file_id = "1nNJsfwCgKXgcZU0s1XgkzN6uNf0SWIhh"
 download_url = f"https://drive.google.com/uc?id={file_id}"
 
 # Use gdown to download the file
-#gdown.download(download_url, "model.pkl", quiet=False)
+gdown.download(download_url, "model.pkl", quiet=False)
 
 # Load the model from the downloaded pickle file
 with open("model.pkl", "rb") as f:
